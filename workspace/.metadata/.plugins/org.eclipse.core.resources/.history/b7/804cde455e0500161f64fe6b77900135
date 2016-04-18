@@ -1,8 +1,6 @@
 package sensors;
 
-import controller.MainControl;
-
-public class UltrasonicControl extends Thread{
+public class UltrasonicControl {
 
 	public UltrasonicControl(MainControl mainControl) {
 		// TODO Auto-generated constructor stub

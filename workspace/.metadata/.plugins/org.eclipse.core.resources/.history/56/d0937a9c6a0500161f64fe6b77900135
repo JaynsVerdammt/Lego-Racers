@@ -4,7 +4,6 @@ import carControl.MotorControl;
 import carControl.SteeringControl;
 import data.TrackCorner;
 import data.TrackData;
-import data.TrackStraight;
 import lejos.nxt.LCD;
 import sensors.RGBControl;
 import sensors.TouchControl;
@@ -19,7 +18,6 @@ public class MainControl {
 	UltrasonicControl ultrasonicControl;
 
 	TrackCorner currentTrackCorner;
-	TrackStraight currentTrackStraight;
 
 	int left = 0;
 	int right = 1;
@@ -61,17 +59,16 @@ public class MainControl {
 	
 	public void straightDetected(int correction) {
 		currentTrackStraight = TrackControl.getCurrentTrackStraight();
-		steeringControl.steerStraight();
-		motorControl.accelerateTo(100000);
 		
-		if(correction != 0){
-			correctDirection(correction);
+		
+		
+		} else {
+			motorControl.stopMotors();
+			LCD.clear();
+			LCD.drawString("FAILURE", 0, 0);
+			LCD.drawString("Wrong Corner DirectioN", 0, 1);
+			LCD.drawString("Return Value: " + currentTrackCorner.getDirection, 0, 2);
 		}
-		
-	}
-	
-	public void correctDirection(int correction){
-		
 	}
 	
 

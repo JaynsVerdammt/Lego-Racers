@@ -2,9 +2,9 @@ package sensors;
 
 import controller.MainControl;
 
-public class RGBControl extends Thread{
+public class UltrasonicControl {
 
-	public RGBControl(MainControl mainControl) {
+	public UltrasonicControl(MainControl mainControl) {
 		// TODO Auto-generated constructor stub
 	}
 

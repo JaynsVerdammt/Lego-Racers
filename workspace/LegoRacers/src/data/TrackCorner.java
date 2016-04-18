@@ -1,5 +1,5 @@
 package data;
 
-public class TrackCorner {
+public class TrackCorner extends TrackData{
 
 }

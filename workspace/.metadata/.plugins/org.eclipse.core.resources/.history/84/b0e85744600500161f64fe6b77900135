@@ -1,0 +1,31 @@
+package controller;
+
+import carControl.MotorControl;
+import carControl.SteeringControl;
+import data.TrackData;
+import sensors.RGBControl;
+import sensors.TouchControl;
+import sensors.UltrasonicControl;
+
+public class MainControl {
+
+	public static void main(String[] args) {
+
+
+		TrackData[] trackData = trackControl.calibrateTrack();
+		
+	}
+	
+	public void initialize(){
+		SteeringControl steeringControl = new SteeringControl(false);
+		MotorControl motorControl = new MotorControl();
+		TrackControl trackControl = new TrackControl();
+		RGBControl rgbControl = new RGBControl(this);
+		TouchControl touchControl = new TouchControl(this);
+		UltrasonicControl ultrasonicControl = new UltrasonicControl(this);
+	}
+
+	
+	
+	
+}

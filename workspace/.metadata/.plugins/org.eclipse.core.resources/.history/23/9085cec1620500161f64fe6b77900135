@@ -1,6 +1,5 @@
 package controller;
 
-import data.TrackCorner;
 import data.TrackData;
 
 public class TrackControl {
@@ -10,7 +9,7 @@ public class TrackControl {
 		return null;
 	}
 
-	public static TrackCorner getCurrentTrackData() {
+	public static Object getCurrentTrackData() {
 		// TODO Auto-generated method stub
 		return null;
 	}
