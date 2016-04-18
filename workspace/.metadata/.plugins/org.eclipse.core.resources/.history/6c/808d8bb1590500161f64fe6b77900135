@@ -23,7 +23,6 @@ public class SteeringControl extends Thread {
 	}
 
 	public void run() {
-		calibrateSteering();
 		while(true){
 		steeringMotor.rotateTo(newDegree);	
 		}
@@ -86,7 +85,6 @@ public class SteeringControl extends Thread {
 		neutral = rightMax - ((Math.abs(leftMax) + Math.abs(rightMax)) / 2) + 2;
 		LCD.clear();
 		LCD.drawInt(neutral, 1, 1);
-		steerStraight();
 	}
 
 	public void sleep(int sleep) {

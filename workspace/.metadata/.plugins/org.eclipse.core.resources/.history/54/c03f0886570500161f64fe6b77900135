@@ -23,10 +23,7 @@ public class SteeringControl extends Thread {
 	}
 
 	public void run() {
-		calibrateSteering();
-		while(true){
 		steeringMotor.rotateTo(newDegree);	
-		}
 	}
 	
 	public void steerRight(int degrees) {
@@ -34,6 +31,7 @@ public class SteeringControl extends Thread {
 		if (newDegree > rightMax) {
 			newDegree = rightMax;
 		}
+		Motor.B.rotateTo(newDegree);
 	}
 	
 	public void steerLeft(int degrees) {
@@ -41,10 +39,11 @@ public class SteeringControl extends Thread {
 		if (newDegree < leftMax) {
 			newDegree = leftMax;
 		}
+		Motor.B.rotateTo(newDegree);
 	}
 	
 	public void steerStraight(){
-		newDegree = neutral+correction;
+		Motor.B.rotateTo(neutral+correction);
 	}
 
 	public void calibrateSteering() {
@@ -59,10 +58,6 @@ public class SteeringControl extends Thread {
 		Motor.B.resetTachoCount();
 		leftMax = -maxUnlimitedAngel + correction;
 		rightMax = maxUnlimitedAngel + correction;
-	}
-	
-	public int getCurrentSteering(){
-		return neutral-Motor.B.getPosition();
 	}
 	
 	public void calibrateSteeringLimited() {
@@ -86,7 +81,6 @@ public class SteeringControl extends Thread {
 		neutral = rightMax - ((Math.abs(leftMax) + Math.abs(rightMax)) / 2) + 2;
 		LCD.clear();
 		LCD.drawInt(neutral, 1, 1);
-		steerStraight();
 	}
 
 	public void sleep(int sleep) {
