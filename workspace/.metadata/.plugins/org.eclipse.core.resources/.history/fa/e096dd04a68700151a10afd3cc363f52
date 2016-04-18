@@ -1,0 +1,52 @@
+import lejos.nxt.Button;
+import lejos.nxt.LCD;
+import lejos.nxt.Motor;
+
+public class MotorTest {
+	public static void main(String[] args) {
+		
+		Steering steering = new Steering();
+		Button.waitForAnyPress();
+		steering.calibrateSteering();
+		//steeringRoutine(steering);
+		//Button.waitForAnyPress();
+		testMotorStart();
+		//Button.waitForAnyPress();
+		testMotorEnde();
+		
+	}
+
+	public static void testMotorStart(){
+		Motor.A.forward();
+		//Motor.A.setSpeed(11000);
+		Motor.C.forward();
+		//Motor.C.setSpeed(11000);
+		for(int i = 0; i < 11000; i += 50){
+			Motor.A.setSpeed(i);
+			Motor.C.setSpeed(i);
+			try {
+				Thread.sleep(100);
+			} catch (InterruptedException e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+		}
+		LCD.drawString("MotorTest", 1, 1);
+	}
+	
+	public static void testMotorEnde(){
+		Motor.A.setSpeed(0);
+		Motor.C.setSpeed(0);
+	}
+	
+	public static void steeringRoutine(Steering steering){
+		steering.turnLeft(20);
+		steering.sleep(200);
+		steering.turnRight(40);
+		steering.sleep(200);
+		steering.setNeutral();
+		
+		
+	}
+}
+

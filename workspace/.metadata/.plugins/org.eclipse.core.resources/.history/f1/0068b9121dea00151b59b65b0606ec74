@@ -1,0 +1,25 @@
+package carControl;
+
+public class MotorControl extends Thread{
+	
+	private int topSpeed = 2000;
+	private int currentSpeed0;
+	private int aimSpeed;
+	
+	public MotorControl(){
+		
+	}
+	
+	public void run(){
+		
+	}
+	
+	public void accelerateTo(int speed){
+		this.aimSpeed = speed;
+	}
+	
+	public void brakeTo(int speed){
+		this.aimSpeed = speed;
+	}
+
+}

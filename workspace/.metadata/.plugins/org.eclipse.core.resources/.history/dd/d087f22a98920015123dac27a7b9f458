@@ -1,0 +1,87 @@
+import lejos.nxt.*;
+
+public class MotorTest {
+	
+	public static void main(String[] args) {
+		
+		Steering steering = new Steering();
+		Button.waitForAnyPress();
+		//steering.calibrateSteering();
+		//steeringRoutine(steering);
+
+//		sleep(1000);
+//		testMotorStart();
+//		steeringRoutine(steering);
+//		sleep(4000);
+//		testMotorEnde();
+		colorSensorTest();
+	}
+	
+	public static void colorSensorTest(){
+	ColorSensor colorSens1 = new ColorSensor(SensorPort.S1);
+	LCD.drawString("ColorTest", 1, 1);
+	while(1){
+	LCD.drawString(colorSens1.getColor().toString(), 1, 2);
+	}
+	}
+
+	public static void testMotorStart(){
+		LCD.drawString("MotorTest", 1, 1);
+		Motor.A.backward();
+		Motor.C.backward();
+		Motor.A.setSpeed(200);
+		Motor.C.setSpeed(200);
+		sleep(2000);
+		Motor.A.setSpeed(400);
+		Motor.C.setSpeed(400);
+		sleep(2000);
+		Motor.A.setSpeed(2000);
+		Motor.C.setSpeed(2000);
+		sleep(200);
+		
+		
+//		for(int i = 0; i < 11000; i += 250){
+//			Motor.A.setSpeed(i);
+//			Motor.C.setSpeed(i);
+//			try {
+//				Thread.sleep(300);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
+		
+	}
+	
+	public static void testMotorEnde(){
+		Motor.A.setSpeed(0);
+		Motor.C.setSpeed(0);
+	}
+	
+	public static void steeringRoutine(Steering steering){
+		Motor.B.rotate(-20);
+		sleep(500);
+		Motor.B.rotate(40);
+		sleep(500);
+		Motor.B.rotate(-40);
+		sleep(500);
+		Motor.B.rotate(40);
+		sleep(500);
+		Motor.B.rotate(-40);
+		sleep(500);
+		Motor.B.rotate(40);
+		sleep(500);
+		Motor.B.rotate(-40);
+		
+		
+	}
+	
+	public static void sleep(int sleep){
+		try {
+			Thread.sleep(sleep);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+	}
+}
+

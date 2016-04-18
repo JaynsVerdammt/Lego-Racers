@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<woerterbuch sprache="deutsch">
+
+	<einträge>
+		<eintrag id="1">
+			<wort>
+				Tastatur
+			</wort>
+			<bedeutung>Eine Tastatur ist ein Eingabegerät, das als Bedien- und
+				Steuerelement eine Anzahl von mit den Fingern zu drückenden Tasten
+				enthält.
+			</bedeutung>
+			<abkürzung>
+				-
+			</abkürzung>
+			<doppelbedeutung></doppelbedeutung>
+			<beispiel>Die Tastatur wird zur Bedienung eines Computers verwendet
+			</beispiel>
+			<synonym>
+				Eingabegerät
+			</synonym>
+		</eintrag>
+
+		<eintrag id="2">
+			<wort>
+				Automobil
+			</wort>
+			<bedeutung>Ein Automobil, kurz Auto (auch Kraftwagen, in der Schweiz
+				amtlich Motorwagen), ist ein mehrspuriges Kraftfahrzeug (also ein
+				von einem Motor angetriebenes Straßenfahrzeug), das zur Beförderung
+				von Personen (Pkw und Bus) und Frachtgütern (Lkw) dient.
+				Umgangssprachlich – und auch in diesem Artikel – werden mit Auto
+				meist Fahrzeuge bezeichnet, deren Bauart überwiegend zur
+				Personenbeförderung bestimmt ist und die mit einem Pkw-Führerschein
+				geführt werden dürfen.
+			</bedeutung>
+			<abkürzung>
+				Auto
+			</abkürzung>
+			<doppelbedeutung></doppelbedeutung>
+			<beispiel>Wir fahren mit dem Automobil an den Strand.
+			</beispiel>
+			<synonym>
+				Personenkraftwagen
+			</synonym>
+		</eintrag>
+
+
+		<eintrag id="3">
+			<wort>
+				Trauma
+			</wort>
+			<bedeutung>(Medizin, Psychologie) starke psychische Erschütterung,
+				die [im	Unterbewusstsein] noch lange wirksam ist
+			</bedeutung>
+			<abkürzung>
+			</abkürzung>
+			<doppelbedeutung>Durch Gewalteinwirkung entstandene Verletzung des Organismus</doppelbedeutung>
+			<beispiel>Wir fahren mit dem Automobil an den Strand.
+			</beispiel>
+			<synonym>
+				Personenkraftwagen
+			</synonym>
+		</eintrag>
+	</einträge>
+
+
+
+
+</woerterbuch>
