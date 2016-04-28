@@ -10,3 +10,5 @@
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
+workspace/.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi
