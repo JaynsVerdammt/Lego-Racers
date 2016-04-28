@@ -46,16 +46,16 @@ public class MainControl {
 	public void cornerDetected(int correction) {
 		currentTrackCorner = TrackControl.getCurrentTrackCorner();
 
-		if (currentTrackCorner.getDirection() == left) {
+		if (currentTrackCorner.getDirection == left) {
 			steeringControl.steerLeft(currentTrackCorner.getSteeringRate() + correction);
-		} else if (currentTrackCorner.getDirection() == right) {
+		} else if (currentTrackCorner.getDirection = right) {
 			steeringControl.steerRight(currentTrackCorner.getSteeringRate() + correction);
 		} else {
 			motorControl.stopMotors();
 			LCD.clear();
 			LCD.drawString("FAILURE", 0, 0);
 			LCD.drawString("Wrong Corner DirectioN", 0, 1);
-			LCD.drawString("Return Value: " + currentTrackCorner.getDirection(), 0, 2);
+			LCD.drawString("Return Value: " + currentTrackCorner.getDirection, 0, 2);
 		}
 	}
 	

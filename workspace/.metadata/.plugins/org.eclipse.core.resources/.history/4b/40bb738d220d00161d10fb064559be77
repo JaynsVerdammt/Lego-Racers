@@ -48,7 +48,7 @@ public class MainControl {
 
 		if (currentTrackCorner.getDirection() == left) {
 			steeringControl.steerLeft(currentTrackCorner.getSteeringRate() + correction);
-		} else if (currentTrackCorner.getDirection() == right) {
+		} else if (currentTrackCorner.getDirection() = right) {
 			steeringControl.steerRight(currentTrackCorner.getSteeringRate() + correction);
 		} else {
 			motorControl.stopMotors();
