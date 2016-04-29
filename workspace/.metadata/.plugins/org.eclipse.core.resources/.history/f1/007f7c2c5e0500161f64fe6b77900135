@@ -1,9 +1,0 @@
-package sensors;
-
-public class RGBControl {
-
-	public RGBControl(MainControl mainControl) {
-		// TODO Auto-generated constructor stub
-	}
-
-}

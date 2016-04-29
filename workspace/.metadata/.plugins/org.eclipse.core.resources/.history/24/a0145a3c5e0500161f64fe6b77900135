@@ -1,9 +1,0 @@
-package sensors;
-
-public class TouchControl {
-
-	public TouchControl(MainControl mainControl) {
-		// TODO Auto-generated constructor stub
-	}
-
-}
