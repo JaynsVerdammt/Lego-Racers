@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  29 APR 2016 10:33
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.12.20)  12 MAY 2016 16:05
 entering extended mode
 **studienarbeit.tex
 
@@ -802,7 +802,12 @@ Package: glossary-tree 2012/09/21 v3.03 (NLCT)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\glossaries\base\glossaries-babel.sty"
 Package: glossaries-babel 2009/04/16 v1.2 (NLCT)
 )
-Package zref Info: New property: appsec on input line 133.
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\subcaption.sty"
+Package: subcaption 2013/02/03 v1.1-62 Sub-captions (AR)
+\c@subfigure=\count155
+\c@subtable=\count156
+)
+Package zref Info: New property: appsec on input line 134.
 \@indexfile=\write4
 
 Writing index file studienarbeit.idx
@@ -810,14 +815,14 @@ Writing index file studienarbeit.idx
 Writing nomenclature file studienarbeit.nlo
 \glo@main@file=\write6
 Package glossaries Info: Writing glossary file studienarbeit.glo on input line 
-167.
-Package hyperref Info: Option `bookmarksopen' set `false' on input line 185.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 185.
+168.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 186.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 186.
 
 
 Package hyperref Warning: Invalid value `0'
 (hyperref)                for option `pdfborder'.
-(hyperref)                Option setting is ignored on input line 185.
+(hyperref)                Option setting is ignored on input line 186.
 
 
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
@@ -838,20 +843,20 @@ Package hyperref Warning: Invalid value `0'
 \pages/19_index.aux)
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \pages/20_erklaerung.aux))
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 238.
-LaTeX Font Info:    ... okay on input line 238.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 239.
+LaTeX Font Info:    ... okay on input line 239.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -888,18 +893,18 @@ LaTeX Font Info:    ... okay on input line 238.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box36
-Package hyperref Info: Link coloring OFF on input line 238.
+Package hyperref Info: Link coloring OFF on input line 239.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count155
+\c@section@level=\count157
 )
-LaTeX Info: Redefining \ref on input line 238.
-LaTeX Info: Redefining \pageref on input line 238.
-LaTeX Info: Redefining \nameref on input line 238.
+LaTeX Info: Redefining \ref on input line 239.
+LaTeX Info: Redefining \pageref on input line 239.
+LaTeX Info: Redefining \nameref on input line 239.
 
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \studienarbeit.out)
@@ -918,23 +923,23 @@ Package caption Info: End \AtBeginDocument code.
 
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count156
+\scratchcounter=\count158
 \scratchdimen=\dimen162
 \scratchbox=\box37
-\nofMPsegments=\count157
-\nofMParguments=\count158
+\nofMPsegments=\count159
+\nofMParguments=\count160
 \everyMPshowfont=\toks39
-\MPscratchCnt=\count159
+\MPscratchCnt=\count161
 \MPscratchDim=\dimen163
-\MPnumerator=\count160
-\makeMPintoPDFobject=\count161
+\MPnumerator=\count162
+\makeMPintoPDFobject=\count163
 \everyMPtoPDFconversion=\toks40
 )
-\c@lstlisting=\count162
+\c@lstlisting=\count164
 
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \pages/10_titel_seminar.tex
-<images/dhbw.png, id=79, 912.40875pt x 481.04718pt>
+<images/dhbw.png, id=94, 912.40875pt x 481.04718pt>
 File: images/dhbw.png Graphic file (type png)
  <use images/dhbw.png>
 Package pdftex.def Info: images/dhbw.png used on input line 3.
@@ -985,84 +990,99 @@ No file chapter/20_kapitel.tex.
 
 
 
-] [2] [3] [4] <../Bilder/Rennstrecke.png, id=148, 347.49825pt x 314.3745pt>
+] [2] [3] [4] <../Bilder/Rennstrecke.png, id=170, 347.49825pt x 314.3745pt>
 File: ../Bilder/Rennstrecke.png Graphic file (type png)
 
 <use ../Bilder/Rennstrecke.png>
-Package pdftex.def Info: ../Bilder/Rennstrecke.png used on input line 367.
+Package pdftex.def Info: ../Bilder/Rennstrecke.png used on input line 368.
 (pdftex.def)             Requested size: 347.49738pt x 314.37372pt.
 
-<../Bilder/RennstreckeBesser.png, id=149, 347.49825pt x 313.17pt>
+<../Bilder/RennstreckeBesser.png, id=171, 347.49825pt x 313.17pt>
 File: ../Bilder/RennstreckeBesser.png Graphic file (type png)
 
 <use ../Bilder/RennstreckeBesser.png>
-Package pdftex.def Info: ../Bilder/RennstreckeBesser.png used on input line 379
+Package pdftex.def Info: ../Bilder/RennstreckeBesser.png used on input line 380
 .
 (pdftex.def)             Requested size: 347.49738pt x 313.16922pt.
  [5 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/Rennstr
 ecke.png>] [6 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bild
 er/RennstreckeBesser.png>]
-<../Bilder/Fahrzeug.png, id=158, 488.42474pt x 247.52475pt>
+<../Bilder/Fahrzeug.png, id=180, 488.42474pt x 247.52475pt>
 File: ../Bilder/Fahrzeug.png Graphic file (type png)
 
 <use ../Bilder/Fahrzeug.png>
-Package pdftex.def Info: ../Bilder/Fahrzeug.png used on input line 398.
+Package pdftex.def Info: ../Bilder/Fahrzeug.png used on input line 399.
 (pdftex.def)             Requested size: 439.5782pt x 222.7702pt.
  [7 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/Fahrzeu
 g.png>]
-<../Bilder/Aktivitaetsdiagramm.png, id=163, 461.3235pt x 561.297pt>
+<../Bilder/Aktivitaetsdiagramm.png, id=185, 461.3235pt x 561.297pt>
 File: ../Bilder/Aktivitaetsdiagramm.png Graphic file (type png)
 
 <use ../Bilder/Aktivitaetsdiagramm.png>
 Package pdftex.def Info: ../Bilder/Aktivitaetsdiagramm.png used on input line 4
-08.
+09.
 (pdftex.def)             Requested size: 415.18732pt x 505.16263pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 408--410
+Underfull \hbox (badness 10000) in paragraph at lines 409--411
 
  []
 
 [8 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/Aktivita
 etsdiagramm.png>]
-<../Bilder/Klassendiagramm.png, id=168, 646.8165pt x 477.58424pt>
+<../Bilder/Klassendiagramm.png, id=190, 646.8165pt x 477.58424pt>
 File: ../Bilder/Klassendiagramm.png Graphic file (type png)
 
 <use ../Bilder/Klassendiagramm.png>
-Package pdftex.def Info: ../Bilder/Klassendiagramm.png used on input line 418.
+Package pdftex.def Info: ../Bilder/Klassendiagramm.png used on input line 419.
 (pdftex.def)             Requested size: 452.76846pt x 334.30669pt.
  [9 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/Klassen
 diagramm.png>] [10]
-Overfull \hbox (3.86336pt too wide) in paragraph at lines 463--472
+Overfull \hbox (3.86336pt too wide) in paragraph at lines 464--473
 [][] 
  []
 
 [11]
-Underfull \hbox (badness 10000) in paragraph at lines 480--481
+Underfull \hbox (badness 10000) in paragraph at lines 481--482
 
  []
 
-<../Bilder/Ultraschallsensor.png, id=184, 324.0105pt x 146.34676pt>
+<../Bilder/Ultraschallsensor.png, id=206, 324.0105pt x 146.34676pt>
 File: ../Bilder/Ultraschallsensor.png Graphic file (type png)
 
 <use ../Bilder/Ultraschallsensor.png>
-Package pdftex.def Info: ../Bilder/Ultraschallsensor.png used on input line 484
+Package pdftex.def Info: ../Bilder/Ultraschallsensor.png used on input line 485
 .
 (pdftex.def)             Requested size: 324.0097pt x 146.34639pt.
  [12 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/Ultras
 challsensor.png>] [13]
-<../Bilder/PlanV1.png, id=193, 572.73975pt x 376.40625pt>
+<../Bilder/PlanV1.png, id=215, 572.73975pt x 376.40625pt>
 File: ../Bilder/PlanV1.png Graphic file (type png)
 
 <use ../Bilder/PlanV1.png>
-Package pdftex.def Info: ../Bilder/PlanV1.png used on input line 513.
+Package pdftex.def Info: ../Bilder/PlanV1.png used on input line 514.
 (pdftex.def)             Requested size: 458.19241pt x 301.1254pt.
 
-Overfull \hbox (2.9483pt too wide) in paragraph at lines 513--514
+Overfull \hbox (2.9483pt too wide) in paragraph at lines 514--515
  [] 
  []
 
 [14 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/PlanV1.
-png>]
+png>] <../Bilder/plattenmalen.jpg, id=223, 537.207pt x 731.1315pt>
+File: ../Bilder/plattenmalen.jpg Graphic file (type jpg)
+
+<use ../Bilder/plattenmalen.jpg>
+Package pdftex.def Info: ../Bilder/plattenmalen.jpg used on input line 536.
+(pdftex.def)             Requested size: 136.57462pt x 185.87268pt.
+
+<../Bilder/plattenfertig.jpg, id=224, 2457.18pt x 3276.24pt>
+File: ../Bilder/plattenfertig.jpg Graphic file (type jpg)
+
+<use ../Bilder/plattenfertig.jpg>
+Package pdftex.def Info: ../Bilder/plattenfertig.jpg used on input line 541.
+(pdftex.def)             Requested size: 136.57462pt x 182.06844pt.
+ [15 <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder/platte
+nmalen.jpg> <C:/Users/D060463/Documents/GitHub/Lego-Racers/dokumentation/Bilder
+/plattenfertig.jpg>]
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \pages/18_literaturverzeichnis.tex
 No file studienarbeit.bbl.
@@ -1072,7 +1092,7 @@ No file studienarbeit.bbl.
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \studienarbeit.ind))
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
-\pages/20_erklaerung.tex) [15
+\pages/20_erklaerung.tex) [16
 
 
 
@@ -1083,8 +1103,8 @@ No file studienarbeit.bbl.
 Package glossaries Warning: No \printglossary or \printglossaries found.
 This document will not have a glossary.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 539.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 566.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 566.
 
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \studienarbeit.aux
@@ -1104,28 +1124,28 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 539.
 \pages/19_index.aux)
 (C:\Users\D060463\Documents\GitHub\Lego-Racers\dokumentation\Studienarbeit_LEGO
 \pages/20_erklaerung.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 539.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 539.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 566.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 566.
 Package rerunfilecheck Info: File `studienarbeit.out' has not changed.
-(rerunfilecheck)             Checksum: C02BCD5A02F8A58AB5F127E3F3D275AE;1367.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 539.
+(rerunfilecheck)             Checksum: 0BC800567422F2D2DF3C7A9F82E72FEB;1657.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 566.
  ) 
 Here is how much of TeX's memory you used:
- 13703 strings out of 493921
- 203113 string characters out of 3147275
- 346195 words of memory out of 3000000
- 16636 multiletter control sequences out of 15000+200000
+ 13779 strings out of 493921
+ 204421 string characters out of 3147275
+ 346713 words of memory out of 3000000
+ 16701 multiletter control sequences out of 15000+200000
  10798 words of font info for 38 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 46i,12n,75p,1557b,378s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 46i,12n,75p,1557b,482s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx6.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiK
 TeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/f
 onts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on studienarbeit.pdf (18 pages, 1227645 bytes).
+Output written on studienarbeit.pdf (19 pages, 2063214 bytes).
 PDF statistics:
- 235 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 193 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 265 PDF objects out of 1000 (max. 8388607)
+ 51 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
 
