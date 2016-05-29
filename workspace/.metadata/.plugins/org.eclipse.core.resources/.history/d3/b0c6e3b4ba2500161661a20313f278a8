@@ -1,0 +1,10 @@
+import lejos.nxt.SensorPort;
+import sensors.RGBControl;
+
+public class SensorTest {
+	
+	public SensorTest(){
+		rgbControlLeft = new RGBControl(this, SensorPort.S1);
+		rgbControlLeft = new RGBControl(this, SensorPort.S2);
+	}
+}

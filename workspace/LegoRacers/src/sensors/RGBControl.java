@@ -12,15 +12,26 @@ public class RGBControl extends Thread{
 	public static final int RED = Color.RED;
 	public static final int GREEN = Color.GREEN;
 	
-	public RGBControl(MainControl mainControl) {
-		// TODO Auto-generated constructor stub
+	private ColorSensor colorSensor;
+	
+	public RGBControl(MainControl mainControl, SensorPort sensorPort) {
+		this.colorSensor = new ColorSensor(sensorPort);
+	}
+	
+	public RGBControl(SensorPort sensorPort) {
+		this.colorSensor = new ColorSensor(sensorPort);
 	}
 	
 	public int getColor() {
-		ColorSensor colorSensor = new ColorSensor(SensorPort.S1);
-		colorSensor.getColorID();
-		
-		return colorSensor.getColorID();
+		return this.colorSensor.getColorID();
+	}
+	
+	public void calibrateHight(){
+		this.colorSensor.calibrateHigh();
+	}
+	
+	public void calibrateLow(){
+		this.colorSensor.calibrateLow();
 	}
 
 }

@@ -2,18 +2,19 @@
 <qualifiedTypeNameHistroy>
 <fullyQualifiedTypeName name="lejos.nxt.Button"/>
 <fullyQualifiedTypeName name="lejos.nxt.Motor"/>
-<fullyQualifiedTypeName name="lejos.nxt.LCD"/>
 <fullyQualifiedTypeName name="lejos.nxt.MotorPort"/>
 <fullyQualifiedTypeName name="carControl.SteeringControl"/>
 <fullyQualifiedTypeName name="carControl.MotorControl"/>
-<fullyQualifiedTypeName name="sensors.RGBControl"/>
 <fullyQualifiedTypeName name="sensors.TouchControl"/>
 <fullyQualifiedTypeName name="sensors.UltrasonicControl"/>
 <fullyQualifiedTypeName name="data.TrackData"/>
 <fullyQualifiedTypeName name="controller.MainControl"/>
 <fullyQualifiedTypeName name="data.TrackCorner"/>
 <fullyQualifiedTypeName name="data.TrackStraight"/>
+<fullyQualifiedTypeName name="lejos.robotics.Color"/>
 <fullyQualifiedTypeName name="lejos.nxt.ColorSensor"/>
 <fullyQualifiedTypeName name="lejos.nxt.SensorPort"/>
-<fullyQualifiedTypeName name="lejos.robotics.Color"/>
+<fullyQualifiedTypeName name="lejos.nxt.LCD"/>
+<fullyQualifiedTypeName name="lejos.nxt.ColorSensor.Color"/>
+<fullyQualifiedTypeName name="sensors.RGBControl"/>
 </qualifiedTypeNameHistroy>

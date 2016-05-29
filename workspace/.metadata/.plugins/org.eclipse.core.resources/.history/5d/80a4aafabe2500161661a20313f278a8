@@ -1,0 +1,34 @@
+import lejos.nxt.LCD;
+import lejos.nxt.SensorPort;
+import sensors.RGBControl;
+
+public class SensorTest {
+	RGBControl rgbControlLeft;
+	RGBControl rgbControlRight;
+	
+	public SensorTest(){
+		this.rgbControlLeft = new RGBControl(SensorPort.S1);
+		this.rgbControlLeft = new RGBControl(SensorPort.S1);
+	}
+	
+	public String getColorValues(){
+		int colorLeft = rgbControlLeft.getColor();
+		int colorRight = rgbControlRight.getColor();
+		return new String("Left: " + String.valueOf((colorLeft) + "Right: " + String.valueOf(colorRight)));
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+//		try{
+		SensorTest sensorTesting = new SensorTest();
+//		}
+//		catch(Exception e)
+//		{
+//			LCD.drawString(e.getMessage(), 0, 0);
+//		}
+//		while(true){
+//			//ausgeben wert
+//			LCD.drawString(sensorTesting.getColorValues(), 0, 0);
+//		}
+	}
+}
