@@ -35,8 +35,8 @@ public class MainControl {
 		steeringControl = new SteeringControl(false);
 		motorControl = new MotorControl();
 		trackControl = new TrackControl();
-		rgbControlLeft = new RGBControl(this, SensorPort.S4);
-		rgbControlRight = new RGBControl(this, SensorPort.S1);
+		rgbControlLeft = new RGBControl(this, SensorPort.S1);
+		rgbControlLeft = new RGBControl(this, SensorPort.S2);
 		touchControl = new TouchControl(this);
 		ultrasonicControl = new UltrasonicControl(this);
 

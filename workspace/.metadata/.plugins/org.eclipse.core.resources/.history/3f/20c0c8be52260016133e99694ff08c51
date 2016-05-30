@@ -1,16 +1,15 @@
 package controller;
 
-
 import carControl.MotorControl;
 import carControl.SteeringControl;
 import data.TrackCorner;
+import data.TrackData;
 import data.TrackStraight;
 import lejos.nxt.LCD;
 import lejos.nxt.SensorPort;
 import sensors.RGBControl;
 import sensors.TouchControl;
 import sensors.UltrasonicControl;
-import controller.TrackControl;
 
 public class MainControl {
 	SteeringControl steeringControl;
@@ -35,8 +34,8 @@ public class MainControl {
 		steeringControl = new SteeringControl(false);
 		motorControl = new MotorControl();
 		trackControl = new TrackControl();
-		rgbControlLeft = new RGBControl(this, SensorPort.S4);
-		rgbControlRight = new RGBControl(this, SensorPort.S1);
+		rgbControlLeft = new RGBControl(this, SensorPort.S1);
+		rgbControlLeft = new RGBControl(this, SensorPort.S2);
 		touchControl = new TouchControl(this);
 		ultrasonicControl = new UltrasonicControl(this);
 
