@@ -1,3 +1,0 @@
-INDEX VERSION 1.127+C:\Users\jm-je_000\Documents\GitHub\Lego-Racers\workspace\.metadata\.plugins\org.eclipse.jdt.core
-2245125605.index
-2048906673.index
